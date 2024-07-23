@@ -22,7 +22,7 @@ async function init(){
             topic: 'rider-updates',
             messages: [
                 {
-                    partition: location.toLowerCase() === 'north', 0 : 1,
+                    partition: location.toLowerCase() === 'north' ? 0 : 1,
                     key:'location-update', 
                     value: JSON.stringify({name:riderName, loc:location})
                 },
