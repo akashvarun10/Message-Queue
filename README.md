@@ -1,7 +1,3 @@
-Sure, here's the information you provided formatted neatly in Markdown:
-
----
-
 ## Kafka
 
 ### Prerequisite
@@ -101,4 +97,3 @@ Certainly! Here are 5 points focusing on load balancing based on the provided lo
    - The round-robin partitioning strategy (`"groupProtocol": "RoundRobinAssigner"`) distributes partitions cyclically among consumers within the group.
    - Enables horizontal scaling by adding more consumers as needed, ensuring scalability and fault tolerance in handling increased message volumes.
 
-These points illustrate how Kafka efficiently distributes message processing across consumers within a consumer group, ensuring optimal performance and scalability in distributed systems.
